@@ -28,26 +28,35 @@ h1 {
     text-align: center;
 }
 
-input, #res {
+input, #res, .btn {
     width: -webkit-fill-available;
-}
-
-input {
-    margin: 10px 0 0;
-    padding: 15px;
-    color: white;
-    background: #292b36;
-    border-radius: 4px;
-    border: none;
-    outline: none;
 }
 
 #res {
     margin: 10px 0 0;
     padding: 15px;
-    color: #5af78d;
+    color: white;
     background: #292b36;
-    border-radius: 4px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#montos {
+    margin: 10px 0 0;
+    padding: 15px;
+    color: white;
+    background: #292b36;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.resultados {
+    color: #5af78d;
+    background: #0127ff00;
+    border: none;
+    outline: none;
 }
 
 #bott {
@@ -57,4 +66,12 @@ input {
 .btn {
     width: 8.4rem;
     cursor: pointer;
+    margin: 10px 0 0;
+    padding: 15px;
+    color: white;
+    background: #292b36;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: -webkit-fill-available;
 }

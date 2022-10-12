@@ -10,10 +10,15 @@
 </head>
 <body>
     <div class="win">
-        <h1>EJERCICIO 1</h1><br>
+        <h1>EJERCICIO 2</h1><br>
         <form id="myform">
-            <input name="numero" spellcheck="false" placeholder="Ingrese un número" type="number" required><br>
-            <input type="text" id="res" placeholder="Resultado" type="number" readonly >
+            <input type="number" id="montos" name="montos" placeholder="Montos de las compras" required><br>
+            <div id="res">
+                <input type="text" id="sub" class="resultados" placeholder="Monto de las compras: $ " readonly>
+                <input type="text" id="desc" class="resultados" placeholder="Descuento: 10%" readonly>
+                <input type="text" id="val-desc" class="resultados" placeholder="Valor descuento: $" readonly>
+                <input type="text" id="total" class="resultados" placeholder="Total a pagar: $" readonly>
+            </div>
             <div id="bott">
                 <input class="btn" type="submit" data-operacion="GUARDAR" value="Guardar">
                 <input class="btn" type="submit" data-operacion="REINICIAR" value="Reiniciar">
